@@ -1,4 +1,4 @@
-void	ft_print_alphabet(char letter)
+void	ft_print_alphabet(void)
 {
 	letter = 'a';
 
