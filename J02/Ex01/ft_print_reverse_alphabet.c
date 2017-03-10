@@ -1,4 +1,4 @@
-void	ft_print_reverse_alphabet(char letter)
+void	ft_print_reverse_alphabet(void)
 {
 	letter = 'z';
 
