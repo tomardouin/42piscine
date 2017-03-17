@@ -1,10 +1,12 @@
 void	ft_print_alphabet(void)
 {
-	letter = 'a';
+	// Et pourquoi pas plutot :
+	write(1, "abcdefghijklmnopqrstuvwyz\n", 26)
+//	letter = 'a';
 
-	while(letter <= 'z')
-		{
-			putchar(letter);
-			letter++;
-		}
+//	while(letter <= 'z')
+//		{
+//			putchar(letter);
+//			letter++;
+//		}
 }
